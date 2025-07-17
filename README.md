@@ -8,9 +8,7 @@ This project demonstrates a **dual blockchain implementation** for secure health
 
 2. **Ethereum Smart Contract** – A Solidity contract (`PatientRecordContract`) deployed on the **Sepolia testnet** to securely add and transfer patient records between authorised entities.
 
----
-
-##  Features
+## 🔧 Features
 
 * SHA-256 cryptographic block hashing
 * Genesis block creation and PoW-based block addition
@@ -22,8 +20,6 @@ This project demonstrates a **dual blockchain implementation** for secure health
   * `records(recordId)`
   * `totalRecords()`
 * Real blockchain deployment with **Remix IDE**, **MetaMask**, and **Etherscan**
-
----
 
 ##  How to Run
 
@@ -40,23 +36,18 @@ python blockchain_simulation.py
 3. Connect MetaMask (Sepolia Testnet)
 4. Deploy and interact via Remix
 
----
-
-## Verified Deployment
+##  Verified Deployment
 
 Contract deployed to Sepolia:
 
 > [https://sepolia.etherscan.io/address/0x51C6b943892BD9Be3ca1A6468e753D5913Ec3256](https://sepolia.etherscan.io/address/0x51C6b943892BD9Be3ca1A6468e753D5913Ec3256)
 
----
-## Limitations
+##  Limitations
 
 * No role-based access control
 * On-chain data not encrypted
 * CLI and Remix only (no frontend UI)
 * Python simulation is single-node, not decentralised
-
----
 
 ## Future Improvements
 
@@ -67,6 +58,3 @@ Contract deployed to Sepolia:
 
 ---
 
-For full documentation, testing logs, and screenshots, see the `docs/` or `report.docx` file in this repo.
-
----
