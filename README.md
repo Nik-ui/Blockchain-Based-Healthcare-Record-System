@@ -8,7 +8,7 @@ This project demonstrates a **dual blockchain implementation** for secure health
 
 2. **Ethereum Smart Contract** – A Solidity contract (`PatientRecordContract`) deployed on the **Sepolia testnet** to securely add and transfer patient records between authorised entities.
 
-## 🔧 Features
+##  Features
 
 * SHA-256 cryptographic block hashing
 * Genesis block creation and PoW-based block addition
